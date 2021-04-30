@@ -3,5 +3,5 @@ WORKDIR C:\Users\Alper\python101\docker_python
 COPY requirements_new.txt .
 RUN pip install -r requirements_new.txt 
 COPY . ./
-EXPOSE 9000
+EXPOSE 80
 CMD ["python","casestudy.py"]
